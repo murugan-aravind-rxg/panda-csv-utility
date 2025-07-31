@@ -39,7 +39,7 @@ def process_folder_csvs(folder_path):
     # Generate Excel filename with timestamp
     current_time = datetime.now()
     timestamp = current_time.strftime("%Y%m%d-%H%M%S")
-    excel_filename = f"data-load-{timestamp}.xlsx"
+    excel_filename = f"test-data-load-{timestamp}.xlsx"
     
     # Ensure Excel file is saved in the same directory
     excel_path = os.path.join(folder_path, excel_filename)
